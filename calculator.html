@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+
+<body>
+    <h1 class="title">Calculadora con JavaScript</h1>
+    <div class="content">
+      <form action="" method="post" class="calculadora">
+        <input type="text" name="" id="textBox">
+        <button type="button" class="operation" id="clear" onclick="clearValue()">C</button>
+        <button type="button" class="operation" id="dividir" onclick="dividirValue()">&#47;</button>
+        <button type="button" class="operation" id="multiplicar" onclick="multiplicarValue()">&#88;</button>
+        <button type="button" class="operation" id="borrar" onclick="borrarValue()">&#8592;</button>
+        <button type="button" id="7" onclick="agreeNum7()">7</button>
+        <button type="button" id="8" onclick="agreeNum8()">8</button>
+        <button type="button" id="9" onclick="agreeNum9()">9</button>
+        <button type="button" class="operation" id="restar" onclick="restarValue()">&#151;</button>
+        <button type="button" id="4" onclick="agreeNum4()">4</button>
+        <button type="button" id="5" onclick="agreeNum5()">5</button>
+        <button type="button" id="6" onclick="agreeNum6()">6</button>
+        <button type="button" class="operation" id="sumar" onclick="sumarValue()">&#43;</button>
+        <button type="button" id="1" onclick="agreeNum1()">1</button>
+        <button type="button" id="2" onclick="agreeNum2()">2</button>
+        <button type="button" id="3" onclick="agreeNum3()">3</button>
+        <button type="button" id="igual" class="operation" onclick="resultado()">&#61;</button>
+        <button type="button" id="porcentaje" onclick="porcentajeValue()">&#37;</button>
+        <button type="button" id="0" onclick="agreeNum0()">0</button>
+        <button type="button" id="punto" onclick="agreePunto()">&#149;</button>
+      </form>
+      <script src="calculator.js"></script>
+    </div>
+  </body>
+  <!-- </html> -->
